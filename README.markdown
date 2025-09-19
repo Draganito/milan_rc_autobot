@@ -1,4 +1,4 @@
-# DT-03 Robot with D500 LiDAR
+# Milan RC Autobot, Autonomous Driving based on Machine Learning
 
 A customizable robotics project built on the Tamiya DT-03 chassis, integrated with a Waveshare D500 LiDAR for advanced obstacle detection and autonomous navigation. Powered by a Raspberry Pi Zero 2W and Python, this project is ideal for hobbyists and developers interested in robotics, LiDAR, and machine learning.
 
