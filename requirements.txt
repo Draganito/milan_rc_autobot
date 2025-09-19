@@ -1,0 +1,5 @@
+pigpio
+aiohttp
+numpy
+scikit-learn
+pyserial
