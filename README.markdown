@@ -100,7 +100,7 @@ The autonomous navigation mode leverages a decision tree classifier (`scikit-lea
   ```
 - **Clone Repository**:
   ```bash
-  git clone https://github.com/<your-username>/milan_rc_autobot.git
+  git clone https://github.com/Draganito/milan_rc_autobot.git
   cd milan_rc_autobot
   ```
 
