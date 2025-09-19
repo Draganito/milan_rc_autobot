@@ -19,7 +19,7 @@ This project combines the robust Tamiya DT-03 chassis with the Waveshare D500 Li
 - **Motor**: 540 Crawler Motor, optimized for steady and controlled movement.
 - **Power Management**: 5A UBEC for stable 5V power delivery to the Raspberry Pi and peripherals.
 - **Battery**: 3000mAh NiMH, providing sufficient runtime for extended operation.
-- **Level Shifter**: Converts Raspberry Pi 3.3V PWM signals to 5V for motor and servo compatibility.
+- **Level Shifter**: Converts Raspberry Pi 3.3V PWM signals to 5V for motor and esc compatibility.
 
 ## Software
 
@@ -100,14 +100,14 @@ The autonomous navigation mode leverages a decision tree classifier (`scikit-lea
   ```
 - **Clone Repository**:
   ```bash
-  git clone https://github.com/<your-username>/<repository-name>.git
-  cd <repository-name>
+  git clone https://github.com/<your-username>/milan_rc_autobot.git
+  cd milan_rc_autobot
   ```
 
 ### 3. Running the Robot
 - **Start Server**:
   ```bash
-  sudo python3 robot_control.py
+  sudo python3 milan_rc_autobot.py
   ```
 - **Access Web Interface**: Open `http://<pi-ip>:8080` in a browser on the same network.
 - **Control**: Use arrow keys (up/down for movement, left/right for steering) and spacebar to stop.
@@ -147,7 +147,7 @@ The autonomous navigation mode leverages a decision tree classifier (`scikit-lea
 
 ```
 <repository-name>/
-├── robot_control.py      # Main application with web server and ML integration
+├── milan_rc_autobot.py      # Main application with web server and ML integration
 ├── simple_lidar.py       # Custom LiDAR driver for D500
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
